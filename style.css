@@ -1,7 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
 .header {
     background: #1f2937;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo  {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-link {
+    color: gainsboro;
+    justify-content: space-between;
+    gap: 15px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.main {
+    background: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+}
+
+.main,
+.under {
+    color: beige;
 }
