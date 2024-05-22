@@ -17,7 +17,7 @@
 .header-link {
     color: gainsboro;
     justify-content: space-between;
-    gap: 15px;
+    align-items: center;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
@@ -31,9 +31,20 @@
     flex-direction: column;
     display: flex;
     text-align: left;
+    flex-direction: column;
 }
 
-.main,
-.under {
-    color: beige;
+#signup {
+    display: flex;
+    background-color: #3882f6;
+    color:white;
+    padding: 5px;
+    flex: 1;
+}
+
+.img {
+    padding: 12px;
+    display: flex;
+    background: #1f2937;
+    justify-content:flex-end;
 }
